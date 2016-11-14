@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<script src="assets/zepto/dist/zepto.js"></script>
+		<script src="assets/zepto/src/touch.js"></script>
+		<script src="assets/swiper/swiper.jquery.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="assets/swiper/swiper.min.css" />
+		<script src="js/index.js"></script>
+		<style>
+		   body{margin: 0;padding: 0;font-size: 14px;font-family: "微软雅黑",arial;}  
+			a{text-decoration: none;}
+			li{list-style: none;}
+			.yitiaoxian{
+				height: 5px;background: linear-gradient(to left,green,cadetblue);	
+			}
+			.nav_list{
+				height: 40px;line-height: 40px; background: linear-gradient(to top,white,cornflowerblue);	
+			}
+			.nav_list a{font-size: 14px;color: black;}
+			.lunbo{
+				width: 100%;height: 200px;	
+			}
+			.lunbo img{
+				width: 100%;height: 200px;
+			}
+			.span span{
+				display: inline-block;width: 20px;height: 20px;background: white;	
+			}
+			.biaoti{margin-top: 30px; height: 40px;line-height: 30px; border-top: solid 3px #2AABD2;
+			    background: linear-gradient(to top,white,cornflowerblue);}
+			.biaoti span{display: inline-block;padding: 5px 10px;font-size: 20px; margin-left: 20px;background: linear-gradient(to top,white,cornflowerblue);}
+			.biaotispan{background: white;}
+		    .section1{position: relative;}
+		    .section1 a{color: #000000;}
+		    .section1_1{transition:all 1s;position: absolute;top: 0px; width: 100%; height:350px; background: white;overflow: hidden;}
+		    .section1_2{transition:all 1s;position: absolute;top: 0px; width: 100%;height: 0px;background: white;overflow: hidden;}
+		    .section1_3{transition:all 1s;position: absolute;top: 0px;width: 100%;height: 0px;background: white;overflow: hidden;}
+		    .section1_1:target{height: 350px;}
+		    .section1_2:target{height: 350px;}
+		    .section1_3:target{height: 350px;}
+		    .listbox{width: 100%; height: 30px;line-height: 30px; border-bottom: solid 1px #c4c8d3;}
+		    .listspan{margin-left: 20px;}
+		</style>
+	
+	</head>
+	<body>
+		<!--<div class="yitiaoxian"></div>-->
+		<nav class="nav_list">
+			<div class="swiper-container list">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href="html/guonei.html">国内焦点</a></div>
+					<div class="swiper-slide"><a href="html/guoji.html">国际焦点</a></div>
+					<div class="swiper-slide"><a href="html/junshi.html">军事焦点</a></div>
+					<div class="swiper-slide"><a href="html/caijing.html">财经焦点</a></div>
+					<div class="swiper-slide"><a href="html/hulian.html">互联网焦点</a></div>
+					<div class="swiper-slide"><a href="html/fangcan.html">房产焦点</a></div>
+					<div class="swiper-slide"><a href="html/qiche.html">汽车焦点</a></div>
+					<div class="swiper-slide"><a href="html/tiyu.html">体育焦点</a></div>
+					<div class="swiper-slide"><a href="html/yule.html">娱乐焦点</a></div>
+					<div class="swiper-slide"><a href="html/youxi.html">游戏焦点</a></div>
+				</div>
+			</div>
+		</nav>
+		<div class="lunbo">
+		    <div class="swiper-container li">
+				  <div class="swiper-wrapper">
+					    <div class="swiper-slide"><img src="img/1.jpg"/></div>
+					    <div class="swiper-slide"><img src="img/2.jpg"/></div>
+					    <div class="swiper-slide"><img src="img/3.jpg"/></div>
+					    <div class="swiper-slide"><img src="img/4.jpg"/></div>
+					    <div class="swiper-slide"><img src="img/5.jpg"/></div>
+				  </div>
+				  <div class="swiper-pagination span"></div>
+				  <!--<div class="swiper-button-prev swiper-button-white"></div>
+    			  <div class="swiper-button-next swiper-button-white"></div>-->
+		    </div>
+		</div>
+		<div class="biaoti">
+			<span ><a href="#span1">房产</a></span>
+			<span ><a href="#span2">汽车</a></span>
+			<span ><a href="#span3">社会</a></span>
+		</div>
+		<section class="section1">
+			<div class="set section1_1" id="span1"></div>
+			<div class="set section1_2" id="span2"></div>
+			<div class="set section1_3" id="span3"></div>
+		</section>
+	</body>
+	
+</html>

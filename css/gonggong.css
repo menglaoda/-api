@@ -1,0 +1,37 @@
+ body{margin: 0;padding: 0;font-size: 14px;font-family: "微软雅黑",arial;}  
+			   a{text-decoration: none;}
+			   li{list-style: none;}
+			   
+			   .nav_list{
+						height: 40px;line-height: 40px; background: linear-gradient(to top,white,cornflowerblue);	
+					    display: flex;font-size: 18px;
+					    }
+			    .nav_list a:nth-child(1){flex: 0.8;color: antiquewhite;}
+			    .nav_list span:nth-child(2){flex: 1.2;}
+			    .lunbo{
+						width: 100%;height: 200px;	
+					    }
+				.lunbo img{
+						width: 100%;height: 200px;
+					   }
+				.span span{
+					display: inline-block;width: 20px;height: 20px;background: white;	
+				      }
+				.biaoti{margin-top: 30px; height: 40px;line-height: 30px; border-top: solid 3px #2AABD2;
+			        background: -webkit-linear-gradient(to top, white, cornflowerblue);
+			        background: -moz-linear-gradient(to top, white, cornflowerblue);
+			        background: -o-linear-gradient(to top, white, cornflowerblue);
+			        background: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(cornflowerblue));
+			        background: linear-gradient(to top, white, cornflowerblue);}
+				.biaoti span{display: inline-block;padding: 5px 10px;font-size: 20px; margin-left: 20px;background: linear-gradient(to top,white,cornflowerblue);}
+				.biaotispan{background: white;}
+			    .section1{position: relative;}
+			    .section1 a{color: #000000;}
+			    .section1_1{transition:all 1s;position: absolute;top: 0px; width: 100%; height:350px; background: white;overflow: hidden;}
+			    .section1_2{transition:all 1s;position: absolute;top: 0px; width: 100%;height: 0px;background: white;overflow: hidden;}
+			    .section1_3{transition:all 1s;position: absolute;top: 0px;width: 100%;height: 0px;background: white;overflow: hidden;}
+			    .section1_1:target{height: 350px;}
+			    .section1_2:target{height: 350px;}
+			    .section1_3:target{height: 350px;}
+			    .listbox{width: 100%; height: 30px;line-height: 30px; border-bottom: solid 1px #c4c8d3;}
+			    .listspan{margin-left: 20px;}
