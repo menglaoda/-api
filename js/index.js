@@ -33,7 +33,7 @@
 					  console.log(res);
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item){
-				    	if(idx>9)return;
+	//			    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -41,7 +41,7 @@
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			    //初始化内容
 			 
@@ -86,7 +86,7 @@
 					  console.log(res);
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
-				    	if(idx>9)return;
+	//			    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -94,7 +94,7 @@
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+               $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			    //初始化内容
 			 
@@ -140,15 +140,15 @@
 					  console.log(res);
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
 				    	$a.appendTo($li);
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
-                        
-                        $ul.appendTo($section1_3_1);
+                        //滚动条
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			    //初始化内容
 			 
