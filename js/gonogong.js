@@ -30,7 +30,7 @@ function fn1(){//国内焦点，新浪提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新浪")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -38,7 +38,7 @@ function fn1(){//国内焦点，新浪提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -81,7 +81,7 @@ function fn2(){//国内焦点，中国新闻网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="中国新闻网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -89,7 +89,7 @@ function fn2(){//国内焦点，中国新闻网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -132,7 +132,7 @@ function fn3(){//国内焦点，新华网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新华网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -140,7 +140,7 @@ function fn3(){//国内焦点，新华网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -183,7 +183,7 @@ function fn4(){//国际焦点，新浪提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新浪")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -191,7 +191,7 @@ function fn4(){//国际焦点，新浪提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -235,7 +235,7 @@ function fn5(){//国际焦点，环球网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="环球网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -243,7 +243,7 @@ function fn5(){//国际焦点，环球网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -287,7 +287,7 @@ function fn6(){//国际焦点，环球网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="环球网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -295,7 +295,7 @@ function fn6(){//国际焦点，环球网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -338,7 +338,7 @@ function fn7(){//军事焦点，环球网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="环球网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -346,7 +346,7 @@ function fn7(){//军事焦点，环球网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -398,7 +398,7 @@ function fn8(){//军事焦点，中国青年网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -450,7 +450,7 @@ function fn9(){//军事焦点，光明网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -493,7 +493,7 @@ function fn10(){//财经焦点，环球网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="环球网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -501,7 +501,7 @@ function fn10(){//财经焦点，环球网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -545,7 +545,7 @@ function fn11(){//财经焦点，新华网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新华网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -553,7 +553,7 @@ function fn11(){//财经焦点，新华网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -605,7 +605,7 @@ function fn12(){//财经焦点，中国网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -648,7 +648,7 @@ function fn13(){//互联网焦点，TechWeb提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="TechWeb")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -656,7 +656,7 @@ function fn13(){//互联网焦点，TechWeb提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -700,7 +700,7 @@ function fn14(){//互联网焦点，新浪提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新浪")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -708,7 +708,7 @@ function fn14(){//互联网焦点，新浪提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -760,7 +760,7 @@ function fn15(){//互联网焦点，搜狐提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -803,7 +803,7 @@ function fn16(){//房产焦点，新华网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新华网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -811,7 +811,7 @@ function fn16(){//房产焦点，新华网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -860,7 +860,7 @@ function fn17(){//房产焦点，搜狐提供
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
 				    	$a.appendTo($li);
-				    	$li.addClass("listbox").appendTo($ul);
+				    	$li.addClass("gundong").addClass("listbox").appendTo($ul);
 				    });
                         
                         $ul.appendTo($section1_2_1);
@@ -915,7 +915,7 @@ function fn18(){//房产焦点，中国经济网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -958,7 +958,7 @@ function fn19(){//汽车焦点，新华网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新华网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -966,7 +966,7 @@ function fn19(){//汽车焦点，新华网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1018,7 +1018,7 @@ function fn20(){//汽车焦点，中国新闻网网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1070,7 +1070,7 @@ function fn21(){//汽车焦点，环球网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1113,7 +1113,7 @@ function fn22(){//体育焦点，新浪提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新浪")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -1121,7 +1121,7 @@ function fn22(){//体育焦点，新浪提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1173,7 +1173,7 @@ function fn23(){//体育焦点，环球网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1225,7 +1225,7 @@ function fn24(){//体育焦点，搜狐提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1268,7 +1268,7 @@ function fn25(){//娱乐焦点，新华网提供
 					var $ul = $("<div></div>");
 				    $.each(res.showapi_res_body.pagebean.contentlist, function(idx,item) {
 				    	if(item.source !="新华网")return ;
-				    	if(idx>9)return;
+//				    	if(idx>9)return;
 				    	var $li = $("<div></div>");
 				    	var $a = $("<a></a>");
 				    	$a.addClass("listspan").html(item.title).attr("href",item.link);
@@ -1276,7 +1276,7 @@ function fn25(){//娱乐焦点，新华网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1328,7 +1328,7 @@ function fn26(){//娱乐焦点，千龙提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1380,7 +1380,7 @@ function fn27(){//娱乐焦点，中国青年网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1431,7 +1431,7 @@ function fn28(){//游戏焦点，腾讯网提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_1_1);
+                        $ul.addClass("gundong").appendTo($section1_1_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1483,7 +1483,7 @@ function fn29(){//游戏焦点，4399提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_2_1);
+                        $ul.addClass("gundong").appendTo($section1_2_1);
 				      }
 			 //初始化   	
 	$.ajax({
@@ -1535,7 +1535,7 @@ function fn30(){//游戏焦点，17173提供
 				    	$li.addClass("listbox").appendTo($ul);
 				    });
                         
-                        $ul.appendTo($section1_3_1);
+                        $ul.addClass("gundong").appendTo($section1_3_1);
 				      }
 			 //初始化   	
 	$.ajax({
